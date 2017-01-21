@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../../fonts/Audiowide-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Courgette';
+    src: url('../../fonts/Courgette-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 575%;
+    color: #2F2F2F;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    margin: 18% 0;
+}
+
+.parallax {
+    background: url(../img/bg.jpg) fixed no-repeat center 100%;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+
+    -webkit-box-shadow: inset 0px 0px 30px 15px rgba(0,0,0,1);
+       -moz-box-shadow: inset 0px 0px 30px 15px rgba(0,0,0,1);
+            box-shadow: inset 0px 0px 30px 15px rgba(0,0,0,1);
+}
+
+.parallax_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            
+}
+
+.parallax_inner h2 {
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    font-size: 275%;
+    color: #C1F1F9;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+    text-shadow: 4px 4px 4px #FDD023;
+}
+
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    background: #DDD;
+}
+
+.code_section {
+    padding: 0 40px;
+    background: #DDD;
+}
+
+.title_code {
+    font-size: 36px;
+    color: #2A2A2A;
+    text-align: center;
+}
+
+.source_code {
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.social{
+    font-size: 60px;
+}
+.wrapper_min {
+    padding: 30px 60px 0 60px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.copyright {
+    font-family: 'Courgette', cursive;
+    font-size: 10px;
+}
